@@ -27,5 +27,5 @@ for item in person["children"]:
 # print out the pets in this format:
 # Type of pet: dog Name of Pet: Fido
 
-# for item in person["pets"]:
-# print(person["pets"][item])
+for item in person["pets"]:
+    print("type of pet:", item, "name of pet: ", person["pets"][item])

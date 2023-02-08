@@ -55,3 +55,25 @@ for key, value in ProduceDictionary.items():
         print(
             f'Produce Name: {key}\nCalculated Total: ${Rcost}\nStated Total: ${value["total"]} \n\n'
         )
+
+"""
+
+#Another way to do this -- what was shown in class
+
+for produce in ProduceDictionary: 
+    cost = ProduceDictionary['produce']['cost']
+    amt_sold = ProduceDictionary['produce']['amt_sold']
+    stated_total = ProduceDictionary['produce']['total']
+    calc_total = round(cost * amt_sold, 2)
+
+    if calc_total != stated_total:
+        print(f"Produce Name: {produce}")
+        print(f"Calculated Total: {calc_total:,.2f}")
+        print(f"State Total: {stated_total:,.2f}")
+        print()
+        print()
+
+        #with the format function above, use a : and then the formatting you desite
+        # != means not equal to
+
+"""
