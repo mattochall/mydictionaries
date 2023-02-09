@@ -52,6 +52,7 @@ for key, value in ProduceDictionary.items():
     Rcost = round(value["cost"] * value["amt_sold"], 2)
 
     if Rcost != value["total"]:
+        print()
         print(
             f'Produce Name: {key}\nCalculated Total: ${Rcost}\nStated Total: ${value["total"]} \n\n'
         )

@@ -6,6 +6,7 @@ import random
 # API is a
 #
 
+
 phonebook = {}  # this is an empty dictionary
 
 phonebook = {
@@ -16,7 +17,7 @@ phonebook = {
 
 # Key is the name of the individuals, the value is the cooresponding phone numbers
 
-"""
+
 print()
 print("*****  start section 1 - print dictionary ********")
 print()
@@ -36,9 +37,6 @@ print("*****  end section 1 ********")
 print()
 
 
-
-
-
 print()
 print("*****  start section 2 - search dictionary ********")
 print()
@@ -50,6 +48,7 @@ print()
 
 # phone = phonebook["Chris"]
 # print(phone)
+
 name = "Chris"
 
 if name in phonebook:
@@ -63,9 +62,6 @@ print("*****  end section 2 ********")
 print()
 
 
-"""
-
-""""
 print()
 print("*****  start section 3 - edit/append dictionary ********")
 print()
@@ -77,14 +73,13 @@ phonebook["Joe"] = "555-444"
 
 print(phonebook)
 
-#how to edit, update, or append
+# how to edit, update, or append
 
 print()
 print("*****  end section 3 ********")
 print()
 
-"""
-"""""
+
 print()
 print("*****  start section 4 - delete/remove from dictionary ********")
 print()
@@ -99,8 +94,8 @@ print(phonebook)
 print()
 print("*****  end section 4 ********")
 print()
-"""
-""""
+
+
 print()
 print("*****  start section 5 - iterate through keys, values, items ********")
 print()
@@ -111,20 +106,18 @@ for k in phonebook:
 
 for value in phonebook.values():
     print(value)
-    #method values belongs to the dictionary class, allows you to iterate through the values only
+    # method values belongs to the dictionary class, allows you to iterate through the values only
 
-for key,value in phonebook.items():
+for key, value in phonebook.items():
     print(f"The key is {key} and the value is {value}")
 
-print ph_tuple in phonebook.items():
+for ph_tuple in phonebook.items():
     print(ph_tuple)
 
 print()
 print("*****  end section 5 ********")
 print()
 
-"""
-""""
 print()
 
 print("*****  start section 6 - using get and clear ********")
@@ -140,8 +133,7 @@ print()
 print("*****  end section 6 ********")
 print()
 
-"""
-"""""
+
 print()
 print("*****  start section 7 - using pop method ********")
 print()
@@ -154,9 +146,8 @@ print(phonebook)
 print()
 print("*****  end section 7 ********")
 print()
- 
-"""
-"""""
+
+
 print()
 print("*****  start section 8 - using popitem ********")
 print()
@@ -165,12 +156,12 @@ a = phonebook.popitem()
 
 print(a)
 print(phonebook)
-#always pops out the last item, there is no random item for dictionaries. There is a work around with lists
+# always pops out the last item, there is no random item for dictionaries. There is a work around with lists
 
 print()
 print("*****  end section 8 ********")
 print()
-"""
+
 
 print()
 print("*****  start section 9 - using random and converting to list ********")
